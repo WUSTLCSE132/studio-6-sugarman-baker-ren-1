@@ -23,7 +23,7 @@ void buttonPressed() {
             buttonState = reading;
 
             if (buttonState == LOW) {
-              Serial.println("pressed");
+              Serial.print("b");
               timer = millis() + INTERVAL;
             }
     }
@@ -45,6 +45,6 @@ void setup() {
 
 void loop() {
   delay(1000);
-  Serial.println("1 second");
+  Serial.print("a");
   }
 

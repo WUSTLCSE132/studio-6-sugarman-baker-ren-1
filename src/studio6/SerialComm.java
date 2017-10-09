@@ -71,7 +71,7 @@ public class SerialComm {
 		}
 		if(debug)
 		{
-			System.out.println("<x"+String.format("%02x", b)+">");
+			System.out.println("<0x"+String.format("%02x", b)+">");
 		}
 		return b;
 	}
